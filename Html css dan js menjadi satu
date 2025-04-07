@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Login Page</title>
+    <link rel="stylesheet" href="style.css"
     <style>
         * {
             box-sizing: border-box;
@@ -218,7 +219,7 @@
         <button class="btn-logout" onclick="logout()">LOGOUT</button>
     </div>
 
-    <script>
+    <script src="script.js">
         document.addEventListener("DOMContentLoaded", function () {
             const usernameInput = document.getElementById("username");
             const passwordInput = document.getElementById("password");
